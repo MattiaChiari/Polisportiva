@@ -1,0 +1,55 @@
+[ {
+  "oraInizio" : "13",
+  "oraFine" : "16",
+  "nameActivity" : "Pallavolo",
+  "description" : "6 Persone schiacciano la palla per fare punto",
+  "day" : "Martedi"
+}, {
+  "oraInizio" : "9",
+  "oraFine" : "11",
+  "nameActivity" : "Pallavolo",
+  "description" : "6 Persone schiacciano la palla per fare punto",
+  "day" : "Mercoledì"
+}, {
+  "oraInizio" : "16:30",
+  "oraFine" : "20:30",
+  "nameActivity" : "Calcio",
+  "description" : "11 perrsone inseguono un pallone",
+  "day" : "Giovedi"
+}, {
+  "oraInizio" : "9",
+  "oraFine" : "12",
+  "nameActivity" : "Basket",
+  "description" : "5 persone rimbalzano un pallone",
+  "day" : "Venerdi"
+}, {
+  "oraInizio" : "16:30",
+  "oraFine" : "20:30",
+  "nameActivity" : "Calcio",
+  "description" : "11 perrsone inseguono un pallone",
+  "day" : "Giovedi"
+}, {
+  "oraInizio" : "11:30",
+  "oraFine" : "13:30",
+  "nameActivity" : "Calcio",
+  "description" : "11 perrsone inseguono un pallone",
+  "day" : "Sabato"
+}, {
+  "oraInizio" : "9",
+  "oraFine" : "12",
+  "nameActivity" : "Basket",
+  "description" : "5 persone rimbalzano un pallone",
+  "day" : "Venerdi"
+}, {
+  "oraInizio" : "9",
+  "oraFine" : "11",
+  "nameActivity" : "Pallavolo",
+  "description" : "6 Persone schiacciano la palla per fare punto",
+  "day" : "Sabato"
+}, {
+  "oraInizio" : "11",
+  "oraFine" : "40",
+  "nameActivity" : "Nuoto",
+  "description" : "Si nuota tutti Insieme",
+  "day" : "Sabato"
+} ]

@@ -1,0 +1,205 @@
+[ {
+  "email" : "user.user@gmail.com",
+  "attivitaPreferite" : [ {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Calcio",
+    "description" : "11 perrsone inseguono un pallone",
+    "day" : " "
+  }, {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Basket",
+    "description" : "5 persone rimbalzano un pallone",
+    "day" : " "
+  } ],
+  "iscrizioni" : [ {
+    "oraInizio" : "16:30",
+    "oraFine" : "20:30",
+    "nameActivity" : "Calcio",
+    "description" : " ",
+    "day" : "Giovedi"
+  } ],
+  "firstName" : "Mario",
+  "lastName" : "Rossi",
+  "street" : "some street",
+  "phoneNumber" : 1234567890,
+  "comple" : [ 1999, 2, 21 ]
+}, {
+  "email" : "user.user@gmail.com",
+  "attivitaPreferite" : [ {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Calcio",
+    "description" : "11 perrsone inseguono un pallone",
+    "day" : " "
+  }, {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Basket",
+    "description" : "5 persone rimbalzano un pallone",
+    "day" : " "
+  } ],
+  "iscrizioni" : [ {
+    "oraInizio" : "16:30",
+    "oraFine" : "20:30",
+    "nameActivity" : "Calcio",
+    "description" : " ",
+    "day" : "Giovedi"
+  } ],
+  "firstName" : "Luca",
+  "lastName" : "Rizzoli",
+  "street" : "some street",
+  "phoneNumber" : 1234567890,
+  "comple" : [ 1999, 2, 21 ]
+}, {
+  "email" : "user.user@gmail.com",
+  "attivitaPreferite" : [ {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Calcio",
+    "description" : "11 perrsone inseguono un pallone",
+    "day" : " "
+  }, {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Basket",
+    "description" : "5 persone rimbalzano un pallone",
+    "day" : " "
+  } ],
+  "iscrizioni" : [ {
+    "oraInizio" : "16:30",
+    "oraFine" : "20:30",
+    "nameActivity" : "Calcio",
+    "description" : " ",
+    "day" : "Giovedi"
+  } ],
+  "firstName" : "Anna",
+  "lastName" : "Rigosi",
+  "street" : "some street",
+  "phoneNumber" : 1234567890,
+  "comple" : [ 1999, 2, 21 ]
+}, {
+  "email" : "user.user@gmail.com",
+  "attivitaPreferite" : [ {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Calcio",
+    "description" : "11 perrsone inseguono un pallone",
+    "day" : " "
+  }, {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Basket",
+    "description" : "5 persone rimbalzano un pallone",
+    "day" : " "
+  } ],
+  "iscrizioni" : [ {
+    "oraInizio" : "16:30",
+    "oraFine" : "20:30",
+    "nameActivity" : "Calcio",
+    "description" : " ",
+    "day" : "Giovedi"
+  } ],
+  "firstName" : "Giorgio",
+  "lastName" : "Lucchi",
+  "street" : "some street",
+  "phoneNumber" : 1234567890,
+  "comple" : [ 1999, 2, 21 ]
+}, {
+  "email" : "user.user@gmail.com",
+  "attivitaPreferite" : [ {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Calcio",
+    "description" : "11 perrsone inseguono un pallone",
+    "day" : " "
+  }, {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Basket",
+    "description" : "5 persone rimbalzano un pallone",
+    "day" : " "
+  } ],
+  "iscrizioni" : [ {
+    "oraInizio" : "16:30",
+    "oraFine" : "20:30",
+    "nameActivity" : "Calcio",
+    "description" : " ",
+    "day" : "Giovedi"
+  } ],
+  "firstName" : "Asia",
+  "lastName" : "Namasco",
+  "street" : "some street",
+  "phoneNumber" : 1234567890,
+  "comple" : [ 1999, 2, 21 ]
+}, {
+  "email" : "user.user@gmail.com",
+  "attivitaPreferite" : [ {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Calcio",
+    "description" : "11 perrsone inseguono un pallone",
+    "day" : " "
+  }, {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Basket",
+    "description" : "5 persone rimbalzano un pallone",
+    "day" : " "
+  } ],
+  "iscrizioni" : [ {
+    "oraInizio" : "16:30",
+    "oraFine" : "20:30",
+    "nameActivity" : "Calcio",
+    "description" : " ",
+    "day" : "Giovedi"
+  } ],
+  "firstName" : "Ion",
+  "lastName" : "Amisano",
+  "street" : "some street",
+  "phoneNumber" : 1234567890,
+  "comple" : [ 1999, 2, 21 ]
+}, {
+  "email" : "user.user@gmail.com",
+  "attivitaPreferite" : [ {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Pallavolo",
+    "description" : " ",
+    "day" : " "
+  } ],
+  "iscrizioni" : [ {
+    "oraInizio" : "16:30",
+    "oraFine" : "20:30",
+    "nameActivity" : "Calcio",
+    "description" : "11 perrsone inseguono un pallone",
+    "day" : "Giovedi"
+  } ],
+  "firstName" : "Mattia",
+  "lastName" : "Chiariello",
+  "street" : "some street",
+  "phoneNumber" : 1234567890,
+  "comple" : [ 1999, 2, 21 ]
+}, {
+  "email" : "user.user@gmail.com",
+  "attivitaPreferite" : [ {
+    "oraInizio" : " ",
+    "oraFine" : " ",
+    "nameActivity" : "Calcio",
+    "description" : " ",
+    "day" : " "
+  } ],
+  "iscrizioni" : [ {
+    "oraInizio" : "11",
+    "oraFine" : "40",
+    "nameActivity" : "Nuoto",
+    "description" : "Si nuota tutti Insieme",
+    "day" : "Sabato"
+  } ],
+  "firstName" : "Andrea",
+  "lastName" : "Macchiarola",
+  "street" : "some street",
+  "phoneNumber" : 1234567890,
+  "comple" : [ 1999, 2, 21 ]
+} ]

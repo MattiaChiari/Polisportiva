@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.ActivityOverviewController">
+   <children>
+      <Label alignment="CENTER" layoutX="187.0" layoutY="14.0" text="Gestione Attività">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TableView fx:id="activityTable" layoutX="20.0" layoutY="68.0" prefHeight="447.0" prefWidth="560.0">
+        <columns>
+            <TableColumn fx:id="nomeColumn" prefWidth="136.0" text="Nome" />
+            <TableColumn fx:id="descrizioneColumn" prefWidth="227.0" text="Descrizione" />
+            <TableColumn fx:id="dayColumn" prefWidth="84.0" text="GIorno" />
+          <TableColumn fx:id="oraInizioColumn" prefWidth="75.5" text="Ora Inizio" />
+          <TableColumn fx:id="oraFineColumn" prefWidth="68.5" text="Ora Fine" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <ButtonBar layoutX="36.0" layoutY="534.0" prefHeight="40.0" prefWidth="521.0">
+        <buttons>
+            <Button mnemonicParsing="false" onAction="#handleUsers" text="Utenti" />
+            <Button mnemonicParsing="false" onAction="#handleIscription" text="Iscrivi" textAlignment="CENTER" />
+          <Button mnemonicParsing="false" onAction="#handleNewActivity" text="Nuovo" />
+            <Button mnemonicParsing="false" onAction="#handleEditActiviti" text="Modifica" />
+            <Button mnemonicParsing="false" onAction="#handleDeleteActivity" text="Cancella" />
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

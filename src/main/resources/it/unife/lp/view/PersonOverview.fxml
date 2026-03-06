@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.PersonOverviewController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" layoutX="14.0" layoutY="14.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="personTable" layoutX="14.0" layoutY="14.0" prefHeight="398.0" prefWidth="175.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="firstNameColumn" prefWidth="87.0" text="Nome" />
+                      <TableColumn fx:id="lastNameColumn" prefWidth="87.0" text="Cognome" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="163.0" text="Dettagli atleta" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font></Label>
+                  <GridPane layoutX="231.0" layoutY="44.0" prefHeight="255.0" prefWidth="161.0">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Label fx:id="firstNameLabel" text="Label" />
+                        <Label fx:id="lastNameLabel" text="Label" GridPane.rowIndex="1" />
+                        <Label fx:id="birthdayLabel" text="Label" GridPane.rowIndex="2" />
+                        <Label fx:id="streetLabel" text="Label" GridPane.rowIndex="3" />
+                        <Label fx:id="phoneNumberLabel" text="Label" GridPane.rowIndex="4" />
+                        <Label fx:id="emaiLabel" text="Label" GridPane.rowIndex="5" />
+                        <Label fx:id="AttivitaPrefe" text="Label" GridPane.rowIndex="6" />
+                     </children>
+                  </GridPane>
+                  <ButtonBar layoutX="66.0" layoutY="577.0" prefHeight="40.0" prefWidth="282.0">
+                    <buttons>
+                        <Button mnemonicParsing="false" onAction="#handleEditPerson" prefHeight="26.0" prefWidth="69.0" text="Modifica" />
+                        <Button mnemonicParsing="false" onAction="#handleNewPerson" prefHeight="26.0" prefWidth="69.0" text="Nuovo" />
+                        <Button mnemonicParsing="false" onAction="#handleActivity" prefHeight="26.0" prefWidth="63.0" text="Attività" />
+                        <Button mnemonicParsing="false" onAction="#handleDeletePerson" prefHeight="26.0" prefWidth="63.0" text="Elimina" />
+                    </buttons>
+                  </ButtonBar>
+                  <ImageView fx:id="athleteImageView" fitHeight="121.0" fitWidth="158.0" layoutX="40.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" />
+                  <TableView fx:id="IscrittedPerson" layoutX="13.0" layoutY="349.0" prefHeight="216.0" prefWidth="391.0">
+                    <columns>
+                      <TableColumn fx:id="NameColumn" prefWidth="75.0" text="Nome" />
+                      <TableColumn fx:id="dayColumn" prefWidth="75.0" text="Giorno" />
+                        <TableColumn fx:id="oraInizioColumn" prefWidth="75.0" text="Ora Inizio" />
+                        <TableColumn fx:id="oraFineColumn" prefWidth="75.0" text="Ora Fine" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+                  <Label layoutX="25.0" layoutY="314.0" prefHeight="22.0" prefWidth="359.0" text="Iscrizioni" textAlignment="RIGHT">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

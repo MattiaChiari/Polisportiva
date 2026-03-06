@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unife.lp.view.RootLayoutController">
+   <top>
+      <MenuBar BorderPane.alignment="CENTER">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleNewUsers" text="New Users" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleNewActivity" text="New Activity" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleOpenUsers" text="Open Users" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleOpenActivity" text="Open Activity" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleSaveUsers" text="Save Users" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleSaveActivity" text="Save Activity" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleSaveAsUsers" text="Save As Users" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleSaveAsActivity" text="Save As Activity" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleExit" text="Exit" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Statistics">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleShowStatistics" text="Grafico" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#handleAbout" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </top>
+</BorderPane>

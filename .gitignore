@@ -1,0 +1,55 @@
+# ==========================================
+# File compilati e di build (NON CARICARE)
+# ==========================================
+*.class
+*.jar
+*.war
+target/
+build/
+bin/
+out/
+
+# ==========================================
+# File di log e crash della Virtual Machine
+# ==========================================
+*.log
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# File specifici degli IDE (Editor di codice)
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+
+# ==========================================
+# File di sistema (Mac / Windows)
+# ==========================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# ==========================================
+# Database locali o file sensibili (Opzionale)
+# ==========================================
+# Se usi un database locale SQLite o file di testo con password, de-commenta le righe sotto togliendo l'hashtag:
+# *.sqlite
+# *.db
+# *.csv
+# config.properties
